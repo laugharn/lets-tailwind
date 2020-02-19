@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "next": "9.2.2",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "tailwindcss": "1.2.0"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "2.0.6",
+    "mdx-deck": "4.0.0",
+    "postcss-preset-env": "6.7.0"
+  },
+  "name": "lets-tailwind",
+  "scripts": {
+    "build": "next build",
+    "deck": "mdx-deck deck.mdx",
+    "dev": "next",
+    "start": "next start"
+  },
+  "version": "1.0.0"
+}

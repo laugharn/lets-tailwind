@@ -1,0 +1,135 @@
+# Let's Tailwind
+
+February 19, 2020
+
+---
+
+## Agenda
+
+* What is Tailwind
+* Why Not ____?
+* Demos
+* Learn More
+
+---
+
+## What is Tailwind?
+
+https://tailwindcss.com
+
+---
+
+- A less opinionated CSS framework
+- Atomic classes with variants
+- Configuration driven
+
+---
+
+### A less opinionated CSS framework
+
+- Powered by PostCSS, outputs CSS
+- Handles normalization, browser quirks, etc.
+- Support for plugins
+- Does not have built in components like buttons, etc.
+
+---
+
+### Atomic classes
+
+- Every class does one thing
+- Variants are handled with a colon delineation (hover:, md:, etc.)
+- Coontrolled by your Tailwind configuration
+
+---
+
+### Configuration driven
+
+- Generate classes from a tailwind.config.js object (or use sensible defaults)
+- Extendable with plugins
+- Configuration object is available in JS
+
+**Caveat:** Since classes are configuration driven, if you have a designer, using Tailwind will require buy-in. You can adjust your scale as necessary, but _should_ you?
+
+---
+
+## Why Not ____?
+
+- JavaScript (Styled Components)
+- Popular preprocessor (LESS/SASS/Stylus)
+- Popular framework (Bootstrap/Foundation/Material)
+- Popular pattern (BEM/OOCSS)
+
+---
+
+### JavaScript (Styled Components)
+
+- Not as performant as good ol' CSS
+- Tricky with SSR
+- Difficult to extricate from your codebase
+- Doesn't handle variants well
+
+---
+
+### Popular preprocessor (LESS/SASS/Stylus)
+
+- God has abandoned `yarn add node-sass --dev`
+- What's the right way to handle dependencies
+- You have nesting and variables and features but then what?
+
+---
+
+### Popular framework (Bootstrap/Foundation/Material)
+
+- You can't commit to using the framework as intended, and your stakeholders definitely can't
+- You're not fooling anyone when you try to dress it up
+
+---
+
+### Popular pattern (BEM/OOCSS)
+
+- Fails in the face of edge cases. What happens when a stakeholder wants to reuse .card but just this one time wants an extra 10px of padding?
+- Requires the engineer to name stuff
+- You'll inevitably break the pattern, and doing these patterns correctly is difficult to enforce and offers minimal returns
+
+---
+
+## Demos
+
+https://github.com/laugharn/lets-tailwind.git
+
+- Setting up in Next.js
+- Using @apply directives
+- Overriding and extending configuration
+- Using configuration in JavaScript
+- Production ready with PurgeCSS
+
+---
+
+### Setting up in Next.js
+
+---
+
+### Using @apply directives
+
+---
+
+### Overriding and extending configuration
+
+---
+
+### Using configuration in JavaScript
+
+---
+
+### Production ready with PurgeCSS
+
+---
+
+## Learn More
+
+- https://tailwindui.com/
+- https://www.youtube.com/channel/UCy1H38XrN7hi7wHSClfXPqQ/videos
+
+---
+
+## Open Discussion
